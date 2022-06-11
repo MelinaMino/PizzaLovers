@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,400;1,500&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Prompt', sans-serif;
+}
+
+body {
+    background-color: #efebe2;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    color: #381706;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    height: 10%;
+    background-color: #ffff;
+}
+
+.imgpizza {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    object-fit: contain;
+}
+
+.bienvenida {
+    width: 100%;
+    height: 20%;
+    margin-top: 0%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.conteiner {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.visible {
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    background-color: #ffff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.render {
+    width: 30%;
+    height: 60%;
+    object-fit: cover;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.info {
+    width: 50%;
+    height: 60%;
+}
+
+.render img {
+    margin: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.noneimg {
+    background-image: url(./sadface.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.info p {
+    text-align: center;
+}
+
+.nombrePizza {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#form {
+    width: 100%;
+    height: 30%;
+    align-items: center;
+    text-align: center;
+}
+
+#numero {
+    width: 30%;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    box-shadow: 2px;
+    margin: 1.5rem;
+    align-items: center;
+    text-align: center;
+}
+
+#boton {
+    align-items: center;
+    background-color: #c30c0c;
+    color: #ffff;
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+    box-shadow: 2px;
+    cursor: pointer;
+}
